@@ -150,6 +150,12 @@ rock_demo = pg.Rect(0,0,50, 40)
 tree_demo = pg.Rect(0,0,240, 20)
 
 
+def get_rock():
+    ''' This function returns positojn of new rocks'''
+    rock_type = rn.randint(0, 2)
+    rock_x = rn.randint(76, 214)
+    rock_initial = -60
+    return [rock_x, -60, rock_type, True]    
 
 def get_bomb(player_x):
     '''adds one more bomb on firing''' 
