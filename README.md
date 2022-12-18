@@ -1,1 +1,1 @@
-here you will find some of the py projectsmade by me.
+here you will find some of the py projects made by me.
